@@ -1,0 +1,15 @@
+#wrapper{
+	width: 940px;
+	margin: 0 auto;
+	background-color: blue;
+	font-family: Verdana, "MS Trebuchet", sans-serif;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #CCC;	
+}

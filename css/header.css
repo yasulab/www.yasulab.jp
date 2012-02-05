@@ -1,0 +1,21 @@
+#header{
+	width: 100%;
+}
+
+	#header ul{
+		list-style-type: none;
+		overflow: hidden;
+		margin: 20px 0px 40px 300px;
+		float: right;
+	}
+
+		#header li{
+			float: left;
+			display: block;
+			margin-right: 25px;
+			color: #FFF;
+		}
+
+			#header li a{
+				font-size: 1.2em;
+			}

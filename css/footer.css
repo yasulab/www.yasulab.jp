@@ -1,0 +1,11 @@
+#footer{
+	margin-top: 30px;	
+
+}
+
+#footer div{
+	float: left;
+	width : 300px;
+	margin-left: 10px;
+	background-color: red;
+}
