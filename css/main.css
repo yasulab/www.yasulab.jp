@@ -2,3 +2,44 @@
 	padding-top: 200px;
 	text-align: center;
 }
+
+	#project{
+		margin: 0;
+		padding: 0;
+		width: 100px;
+		height: 200px;
+	}
+
+		#project li{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			width: 180px;
+			height: 160px;
+			float: left;
+			background-color: red;
+		}
+
+			#project li img{
+				width: 170px;
+				height: 160px;
+			}
+
+	.bx-prev, .bx-next{
+		background-position: 0 0;
+		position: absolute;
+		top: 70px;
+		width: 35px;
+		height: 35px;
+		text-indent: -999999px;
+	}
+
+	.bx-prev{
+		left: -55px;
+		background: url(../img/left.png) no-repeat 0 0;
+	}
+		
+	.bx-next{
+		right: -50px;
+		background: url(../img/right.png) no-repeat 0 0;
+	}
