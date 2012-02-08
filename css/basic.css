@@ -1,15 +1,35 @@
+body {	
+	background: #FFF url(../img/texture.png) repeat;
+/*	background-color: #3E2A21;
+*/}
+
 #wrapper{
-	width: 940px;
+
+	width: 950px;
 	margin: 0 auto;
 	/*background-color: blue;*/
 	font-family: Verdana, "MS Trebuchet", sans-serif;
 }
 
-a {
-	color: #FFF;
+h1{
+	color: #9D7C5B;
+}
+
+h2{
+	color: #999;
+}
+
+li, p, a {
+	color: #8E817D;
 	text-decoration: none;
 }
 
 a:hover{
 	color: #CCC;	
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
