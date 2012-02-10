@@ -22,13 +22,19 @@
 			padding: 0;
 			overflow: hidden;
 			width: 190px;
-			height: 160px;
+			height: 164px;
 			float: left;
 		}
 
 			#project li img{
 				width: 170px;
 				height: 160px;
+				border: 2px solid #9D7C5B; 
+			}
+
+			#project li img:hover{
+				cursor: pointer;
+				border: 2px solid #C4A873;	
 			}
 
 	.bx-prev, .bx-next{

@@ -1,0 +1,80 @@
+#main{
+	clear: both;
+}
+
+	#navigation {
+		height: 36px;
+		padding: 20px 20px 0 30px;
+		width: 904px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	}
+
+	#navigation li {
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		float: left;
+		width: 168px;
+		margin: 0 10px 0 0;
+		background-color: #2B477D;
+		border: solid 1px #C4A873;
+		position: relative;
+		z-index: 1;
+	}
+
+	#navigation li.selected {
+		z-index: 3;
+	}
+
+	#navigation li.shadow {
+		width: 100%;
+		height: 2px;
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		border: none;
+		background: none;
+		z-index: 2;
+		-webkit-box-shadow: #111 0 -2px 6px;
+		-moz-box-shadow: #111 0 -2px 6px;
+		box-shadow: #111 0 -2px 6px;
+	}
+
+	#navigation li a:link, #navigation li a:visited {
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		display: block;
+		text-align: center;
+		width: 168px;
+		height: 40px;
+		line-height: 36px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 13px;
+		font-weight: bold;
+		color: #fff;
+		letter-spacing: 1px;
+		outline: none;
+		float: left;
+		background: #917A56;
+		-webkit-transition: background-color 0.3s linear;
+		-moz-transition: background-color 0.3s linear;
+		-o-transition: background-color 0.3s linear;
+	}
+
+	#navigation li a:hover {
+		background-color: #C4A873;
+	}
+
+	#navigation li.selected a:link, #navigation li.selected a:visited {
+		color: #2B477D;
+		border: solid 1px #fff;
+		-webkit-transition: background-color 0.2s linear;
+		background: -moz-linear-gradient(top center, #d1d1d1, #f2f2f2 80%) repeat scroll 0 0 #f2f2f2;
+		background: -webkit-gradient(linear,left bottom,left top,color-stop(.2, #f2f2f2),color-stop(.8, #d1d1d1));
+		background-color: #f2f2f2;
+	}
