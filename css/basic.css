@@ -19,7 +19,7 @@ h2{
 	color: #999;
 }
 
-li, p, a {
+li, p, a ,label{
 	color: #8E817D;
 	text-decoration: none;
 }

@@ -1,3 +1,42 @@
-#main{
+#contact{
 	clear: both;
+	float: left;
+	margin-top: 40px;
 }
+
+	#contact h1{
+		font-size: 1.8em;
+		padding-bottom: 20px;
+	}
+
+	form, #socialmedia{
+		float: left;
+		margin-left: 10px;
+	}
+
+	form div{
+		margin-bottom: 20px;
+	}
+
+	input[type="text"], textarea{
+		padding: 3px;
+		font-size: 100%;
+	}
+
+	form span{
+		color: #9D7C5B;
+	}
+
+	#socialmedia{
+		margin: 0 0 20px 200px;
+	}
+
+		#socialmedia h2{
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+
+		#socialmedia li{
+			padding: 5px;
+			margin-left: 15px;
+		}
