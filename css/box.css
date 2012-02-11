@@ -1,0 +1,23 @@
+#box{
+	margin-top: 30px;
+}
+#box div{
+	float: left;
+	width : 300px;
+	/*background-color: #EEE;*/
+	margin-left: 14px;
+	border: 1px solid #999;
+	height: 200px;
+/*	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+*/}
+
+	#box div h2 , #box div li{
+		margin: 10px;
+		margin-left: 45px;
+	}
+
+	#box div h2{
+		font-size: 1.5em;
+	}

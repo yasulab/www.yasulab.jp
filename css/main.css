@@ -28,13 +28,16 @@
 
 			#project li img{
 				width: 170px;
-				height: 160px;
-				border: 2px solid #9D7C5B; 
+				height: 158px;
+				border: 3px solid #9D7C5B; 
+				-webkit-transition: border-color 0.1s linear;
+				-moz-transition: border-color 0.1s linear;
+				-o-transition: border-color 0.1s linear;
 			}
 
 			#project li img:hover{
 				cursor: pointer;
-				border: 2px solid #C4A873;	
+				border: 3px solid #C4A873;	
 			}
 
 	.bx-prev, .bx-next{

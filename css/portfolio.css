@@ -2,10 +2,11 @@
 	clear: both;
 }
 
+	/*navigation*/
 	#navigation {
 		height: 36px;
 		padding: 20px 20px 0 30px;
-		width: 904px;
+		width: 940px;
 		margin: 0 auto;
 		position: relative;
 		overflow: hidden;
@@ -16,9 +17,9 @@
 		-moz-border-radius: 6px;
 		border-radius: 6px;
 		float: left;
-		width: 168px;
+		width: 220px;
 		margin: 0 10px 0 0;
-		background-color: #2B477D;
+		background-color: #917A56;
 		border: solid 1px #C4A873;
 		position: relative;
 		z-index: 1;
@@ -48,7 +49,7 @@
 		border-radius: 6px;
 		display: block;
 		text-align: center;
-		width: 168px;
+		width: 220px;
 		height: 40px;
 		line-height: 36px;
 		font-family: Arial, Helvetica, sans-serif;
@@ -71,10 +72,36 @@
 	}
 
 	#navigation li.selected a:link, #navigation li.selected a:visited {
-		color: #2B477D;
+		color: #84601E;
 		border: solid 1px #fff;
 		-webkit-transition: background-color 0.2s linear;
 		background: -moz-linear-gradient(top center, #d1d1d1, #f2f2f2 80%) repeat scroll 0 0 #f2f2f2;
 		background: -webkit-gradient(linear,left bottom,left top,color-stop(.2, #f2f2f2),color-stop(.8, #d1d1d1));
 		background-color: #f2f2f2;
 	}
+
+
+	/*content*/
+	#content{
+		width: 980px;
+		background-color: #f2f2f2;
+		border: 1px solid #f2f2f2;
+		padding-bottom: 100px;
+	}
+
+	.project{
+		margin: 40px;
+	}
+
+		.project a{
+			float: left;
+			clear: both;
+		}
+
+		.project .text{
+			margin-left: 180px;
+		}
+
+		.project h2{
+			font-size: 2em;	
+		}
