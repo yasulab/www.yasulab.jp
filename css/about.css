@@ -1,0 +1,64 @@
+#about{
+	clear: both;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+	#about h1{
+		font-size: 3em;
+		margin: 15px;
+	}
+
+	#about h2{
+		font-size: 1.5em;
+		margin-bottom: 6px;
+	}
+
+	#outerbox{
+		border: 1px solid #CCC;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.box{
+		padding: 10px;
+	}
+
+		.box p, .box li {
+			margin-left: 10px;	
+			font-family: Baskerville, Times, serif;
+			font-size: 1.1em;
+		}
+
+		#shortprofile{
+			float: left;
+			width: 30%;
+			border-right: 1px solid #CCC;	
+		}
+
+		#longprofile{
+			float: left;
+		}
+
+		#skills{
+			border-top: 1px solid #CCC;
+			border-bottom: 1px solid #CCC;
+		}
+
+			.programming, .design{
+				float: left;
+				width: 45%;
+				margin: 10px;
+			}
+
+			.clear{
+				clear: both;
+			}	
+
+		#resumes{
+			border-bottom: 1px solid #CCC;
+		}
+
+		#socialmedia{
+			
+		}

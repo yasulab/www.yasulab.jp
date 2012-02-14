@@ -1,0 +1,10 @@
+#project{
+	clear: both;
+	width: 80%;
+	margin: 0 auto;
+}
+
+	#project img{
+		margin: 20px auto;
+		display: block;
+	}

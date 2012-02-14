@@ -1,5 +1,4 @@
 body {	
-	background: #FFF url(../img/texture.png) repeat;
 /*	background-color: #3E2A21;
 */}
 
@@ -19,11 +18,14 @@ h2{
 	color: #999;
 }
 
-li, p, a ,label{
+li, p,label{
 	color: #8E817D;
-	text-decoration: none;
 }
 
+a{
+	color: #9D7C5B;
+	text-decoration: none;
+}
 a:hover{
 	color: #CCC;	
 }
@@ -32,4 +34,8 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.hidden{
+	display: none;
 }
