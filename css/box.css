@@ -37,10 +37,10 @@
 		margin-left: 15px;	
 	}
 
-	#box div li, #box div p{
-		margin-left: 20px;
-	}
-
+		#box .block p{
+			padding-left: 10px;
+		}
+		
 
 		#box div a{
 			text-decoration: underline;

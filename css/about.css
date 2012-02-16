@@ -25,38 +25,30 @@
 	}
 
 		.box p, .box li {
-			margin-left: 10px;	
+			margin-left: 5px;	
 			font-family: Baskerville, Times, serif;
 			font-size: 1.1em;
 		}
 
-		#shortprofile{
-			float: left;
-			width: 30%;
-			border-right: 1px solid #CCC;	
-		}
 
 		#longprofile{
 			float: left;
+			width: 45%;
 		}
 
 		#skills{
-			border-top: 1px solid #CCC;
-			border-bottom: 1px solid #CCC;
+			float: left;
+			width:45%;
+			border-left: 1px solid #CCC;
 		}
 
-			.programming, .design{
-				float: left;
-				width: 45%;
-				margin: 10px;
-			}
 
 			.clear{
 				clear: both;
 			}	
 
 		#resumes{
-			border-bottom: 1px solid #CCC;
+			border-top: 1px solid #CCC;
 		}
 
 		#socialmedia{
