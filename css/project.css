@@ -11,9 +11,21 @@
 
 	#project h1{
 		font-size: 2em;
-		padding-bottom: 10px;
 	}
 
 	#project p{
-		margin-left: 15px;
+		margin: 10px 0 10px 15px;
+		line-height: 1.4em;
 	}
+
+		#project p a{
+			font-weight: bold;
+		}
+
+		#project ul{
+			margin-left: 35px;
+		}
+
+			#project ul li{
+				list-style-type: circle;
+			}
