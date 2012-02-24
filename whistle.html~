@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />	
+	<link href="css/basic.css" rel="stylesheet" type="text/css" />	
+	<link href="css/header.css" rel="stylesheet" type="text/css" />
+	<link href="css/about.css" rel="stylesheet" type="text/css" />
+	<link href="css/project.css" rel="stylesheet" type="text/css" />
+	<link href="css/footer.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="portfolio.html">portfolio</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</div>
+	
+	<div id="project">
+		<img src="img/whistle.png">
+		<div id="explanation">
+			<h1>ホイッスル on Android</h1>
+			<p>アプリ概要: ホイッスルは、災害時における生存確率を高めます。居場所が外部と遮断されてしまった場合、救助隊や近くの人に助けを求める時に役立ちます。ホイッスルを常に携帯する事がベストですが、必要な時に手元に無いかもしれません。</p>
+			<p>本アプリ「ホイッスル」は、起動後、中央のボタンを押すと大きなホイッスル音が鳴り続け、1ボタンでON/OFFの操作が可能です。万が一に備えて、あるいは女性や子供の方への防犯としてもお役立てください。Android版/iPhone版の両方があります。</p>
+			<p># 今回の東北地方太平洋沖地震を受け、製作しました。2011年3月の大地震で被害に遭われた方には心よりお悔やみ申し上げます。</p>			
+			<p>また、本アプリへのご要望、ご意見はお気軽にどうぞ。公開から10ヶ月で10万ダウンロードを超えました。</p>
+			<a href="https://market.android.com/details?id=org.sorarier.whistle&hl=ja" ><img src="img/androidmarket.png"></a>
+			<p>2011年、早稲田大学で行われた<a href="http://www.dcl.info.waseda.ac.jp/workshop/2011">「次世代コンピューティングシステムに関する合同ワークショップ」</a>で最優秀賞を受賞。</p>
+			</div>
+		</div>
+	<div id="footer">
+		<p>Copyright © @yasulab All Rights Reserved.</p>
+	</div>
+	</div>
+</body>
+</html>

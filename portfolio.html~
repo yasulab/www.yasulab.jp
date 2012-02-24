@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />	
+	<link href="css/basic.css" rel="stylesheet" type="text/css" />	
+	<link href="css/header.css" rel="stylesheet" type="text/css" />
+	<link href="css/portfolio.css" rel="stylesheet" type="text/css" />
+	<link href="css/footer.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="portfolio.html">portfolio</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</div>
+
+		<div id="main">
+			<h1>Portfolio</h1>
+			<ul id="navigation">
+				<li class="selected"><a href="">web</a></li>
+				<li><a href="">smart phone</a></li>
+				<li><a href="">education</a></li>
+				<li><a href="">community</a></li>
+				<li><a href="">system</a></li>
+				<li class="shadow"></li>
+			</ul>
+
+			<div id="content">
+				<div class="project tab0">
+					<a href="sorarier.html"><img src="img/sorarier.png" width="160px" height="160px"></a>
+					<div class="text">
+						<h2>sorarier</h2>
+						<p>explanation comes here.
+						</p>
+					</div>
+				</div>
+				<div class="project tab0">
+					<a href="misawagram.html"><img src="img/misawagram.png" width="160px" height="160px"></a>
+					<div class="text">
+						<h2>misawagram</h2>
+						<p>沖縄で行われたJava Kuche Hackathonで制作した成果物。
+						非商用であれば自由に転載可能な「地獄のミサワ」画像を、タイル表示させたウェブサービスです。</p>
+					</div>
+				</div>
+				<div class="project tab0">
+					<a href="favtile.html"><img src="img/favtile.png" width="160px" height="160px"></a>
+					<div class="text">
+						<h2>favtile</h2>
+						<p>今のTwitterはお気に入り機能を存分に活かしきれていない。
+						FavtileはTwitterのふぁぼ(お気に入り)をもっと快適に使うためのTwitterクライアントだ。</p>
+					</div>
+				</div>
+				<div class="project hidden tab1">
+					<a href="whistle.html"><img src="img/whistle.png" width="160px" height="160px"></a>
+					<div class="text">
+						<h2>ホイッスル on Android</h2>
+						<p>ホイッスルは、災害時における生存確率を高めます。居場所が外部と遮断されてしまった場合、救助隊や近くの人に助けを求める時に役立ちます。ホイッスルを常に携帯する事がベストですが、必要な時に手元に無いかもしれません。本アプリ「ホイッスル」は、起動後、中央のボタンを押すと大きなホイッスル音が鳴り続け、1ボタンでON/OFFの操作が可能です。万が一に備えて、あるいは女性や子供の方への防犯としてもお役立てください。Android版/iPhone版の両方があります。
+						</p>
+					</div>
+				</div>
+				<div class="project hidden tab2">
+					<a href="fab.html"><img src="img/fab.png" width="160px" height="160px"></a>
+					<div class="text">
+						<h2>週末ものづくり講座</h2>
+						<p>Weekend Fabrication(週末ものづくり講座)は, Lean Startup などで注目されている
+「素早く失敗し,素早く学習する」手法を,教育に取り入れるプロジェクトである.</p>
+					</div>
+				</div>
+				<div class="project hidden tab3">
+					<a href="okinawarb.html"><img src="img/okinawarb-logo.png" width="160px" height="160px"></a>
+					<div class="text">
+						<h2>Okinawa.rb</h2>
+						<p>A local community for Ruby/Rails users in Okinawa, Japan. From beginners to veterans, all those who are interested in Ruby/Rails are welcome!沖縄のRuby/Railsコミュニュティです。沖縄のRuby/Railsな方々の情報交換を主な目的として活動しています。毎週水曜日19時から、ギークハウス沖縄で Meetup を開いています。<span><a href="http://qwik.jp/okinawarb/">Okinawa.rb</a></span>
+						</p>
+					</div>
+				</div>
+				<div class="project hidden tab4">
+					<a href="spumone.html"><img src="img/spumone.png" width="160px" height="160px"></a>
+					<div class="text">
+						<h2>SPUMONE</h2>
+						<p>SPUMONE (Software Processing Unit, Multiplexing ONE into two) とは, 
+						シングルコアおよびマルチコア CPU 上で動作する CPU 仮想化層のことで, 
+						単一の物理 CPU から複数の仮想 CPU を生成し, ゲスト OS に提供することが出来る.
+						</p>
+					</div>
+				</div>
+				<div class="project hidden tab4">
+					<a href="alvila.html"><img src="img/alvila.png" width="160px" height="160px"></a>
+					<div class="text">
+						<h2>ALVILA skills</h2>
+						<p>欧州での国際インターンシップ期間中に立ち上げたOpen Source Softwareプロジェクト。
+						Eclipseベースのアプリケーションで、GUIを簡単に作れるようにしたフレームワーク。
+						気づいたらインターン先の会社名が Alvila に変わっていた始末。色々とうまくいったらしい。</p>
+						<p>インターン中は開発からドキュメント作成、ウェブサイト制作まで、幅広く従事した。</p>
+			</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Copyright © @yasulab All Rights Reserved.</p>
+	</div>
+
+	<script type="text/javascript" src="js/tab.js"></script>
+</body>
+</html>

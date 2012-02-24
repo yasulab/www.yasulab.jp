@@ -1,0 +1,61 @@
+#main{
+	clear: both;
+	text-align: center;
+}
+
+	#main h1{
+		font-size: 4em;	
+		margin: 20px;
+		margin-bottom: 50px;
+		padding: 30px;
+	}
+
+	#project{
+		margin: 0;
+		padding: 0;
+		width: 100px;
+		height: 200px;
+	}
+
+
+		#project li{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			width: 190px;
+			height: 164px;
+			float: left;
+		}
+
+			#project li img{
+				width: 170px;
+				height: 158px;
+				border: 3px solid #CCC; 
+				-webkit-transition: border-color 0.1s linear;
+				-moz-transition: border-color 0.1s linear;
+				-o-transition: border-color 0.1s linear;
+			}
+
+			#project li img:hover{
+				cursor: pointer;
+				border: 3px solid #C9B372;	
+			}
+
+	.bx-prev, .bx-next{
+		background-position: 0 0;
+		position: absolute;
+		top: 70px;
+		width: 35px;
+		height: 35px;
+		text-indent: -999999px;
+	}
+
+	.bx-prev{
+		left: -55px;
+		background: url(../img/left.png) no-repeat 0 0;
+	}
+		
+	.bx-next{
+		right: -50px;
+		background: url(../img/right.png) no-repeat 0 0;
+	}

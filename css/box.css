@@ -1,11 +1,12 @@
 #box{
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-left: 11px;
 }
 #box > div{
 	float: left;
 	width : 300px;
 	height: 385px;
-	margin-left: 11px;
+	margin-right: 11px;
 	/*background-color: #EEE;*/
 /*	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -28,20 +29,19 @@
 		color: #999;
 	}
 
-/*	#box div p{
-		color: #BBB;
+	#box div p{
+	     	 text-align: left;
 	}
-*/
+
 	#box div h2{
 		font-size: 1.5em;
 		margin-left: 15px;	
 	}
 
-		#box .block p{
-			padding-left: 10px;
-		}
+	#box .block p{
+		padding-left: 10px;
+	}
 		
-
-		#box div a{
-			text-decoration: underline;
-		}
+	#box div a{
+		text-decoration: underline;
+	}
