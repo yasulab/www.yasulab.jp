@@ -1,4 +1,6 @@
 (function($){
+    $('.social').tipsy({fallback: "Where's my tooltip yo'?"}); 
+    /*
     //1.create element by getting title of img.
     //2.set css: position absloute, opaque, title color white
     //3.add item.
@@ -21,8 +23,9 @@
 
     var $element;
 
-    $("li").hover(
+    $("#grid li").hover(
 			function(){
+			    
 			    var $this = $(this);
 			    $this.stop(true);
 			    var title = "hogehoge";//$this.find("img").attr('title');
@@ -34,8 +37,8 @@
 			    $element.remove();
 			}
 			);
+    */
 })(jQuery);
-
 
 
 
